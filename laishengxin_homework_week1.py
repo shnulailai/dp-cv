@@ -4,9 +4,6 @@
 # Please combine image crop, color shift, rotation and perspective transform together to complete a data augmentation script.
 # Your code need to be completed in Python/C++ in .py or .cpp file with comments and readme file to indicate how to use.
 
-# In[65]:
-
-
 import cv2
 import random
 import numpy as np
@@ -174,7 +171,7 @@ if __name__ == "__main__":
             img_crop = img_crop(img)
             #  路径拼接
             cv2.imwrite(str(path[0:-3]+'png'), img_crop)
-        count = count +  1
+        count = count + 1
         if 1< count < 5 :
             # 给部分图片上色
             color = color_shift(img)
