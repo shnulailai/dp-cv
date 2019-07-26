@@ -1,13 +1,8 @@
-if you run this code,meet such this problem:
-cv2.xfeatures2d.SIFT_Create无法使用
-because this version is new,try to 
-reduce the version.The solution is:
-1.uninstall the original version,
-you could view the current of cv2 through
+If you run this code,meet such this problem:cv2.xfeatures2d.SIFT_Create无法使用.Because this version is new,try to reduce the version.The solution is:
+
+1.uninstall the original version,you could view the current of cv2 through
 print(cv2.__version__) in jupyter notebook
 
 2.and then:
-(1)install opencv like this:
-pip install opencv_python == 3.4.2.16
-(2)install contrib package
-pip install opencv_contrib_python==3.4.2.16
+(1)install opencv like this:  pip install opencv_python == 3.4.2.16
+(2)install contrib package:   pip install opencv_contrib_python==3.4.2.16
